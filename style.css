@@ -1,6 +1,9 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    margin: 0;
+
+ 
 }
 
 a {
@@ -8,26 +11,50 @@ a {
     color: black;
 }
 
-.header { 
-    background-color: rgb(237, 136, 47);
+
+
+.header, .footer { 
+    background-color: rgb(232, 167, 111);
+    display: flex;
+    height: 72px;
+    justify-content: space-around;
+    padding: 8px 16px;
+    align-items: center;
+
 }
 
+#logo-head { 
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+
+
+
 .container-head {
-    background-color: rgb(237, 136, 47);
+    background-color: rgb(232, 167, 111);
+    height: 300px;
 }
 
 .container-info {
     background-color: whitesmoke;
+    height: 300px;
 }
 
 .container-quote {
-    background-color: rgb(113, 223, 212);
+    background-color: rgb(177, 233, 228);
+    height: 300px;
 }
 
 .container-sign {
      background-color: whitesmoke;
-}
-
-.footer { 
-    background-color: rgb(237, 136, 47);
+     height: 300px;
 }
