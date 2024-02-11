@@ -2,36 +2,41 @@ body {
     display: flex;
     flex-direction: column; 
     margin: 0;
-
+    font-family: "Helvetica";
+    font-weight: 700;
  
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color:  white;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+    /* min-width: 100%;
+    min-height: 100%; */
 }
 
 
 
 .header, .footer { 
     background-color: rgb(232, 167, 111);
+
     display: flex;
     height: 72px;
     justify-content: space-around;
     padding: 8px 16px;
     align-items: center;
+    color: white;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     width: 120px;
     height: 80px;
     object-fit: contain;
@@ -58,7 +63,37 @@ img {
 .container-head {
     background-color: rgb(232, 167, 111);
     height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
 }
+
+.container-head article {
+    color: white;
+}
+.h {
+    font-weight: 700;
+}
+
+.frame {
+    background-color: grey;
+    border-radius: 32px;
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    
+}
+
+.frame img{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    
+}
+
 
 .container-info {
     background-color: whitesmoke;
