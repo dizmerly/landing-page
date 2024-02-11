@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header { 
+    background-color: rgb(237, 136, 47);
+}
+
+.container-head {
+    background-color: rgb(237, 136, 47);
+}
+
+.container-info {
+    background-color: whitesmoke;
+}
+
+.container-quote {
+    background-color: rgb(113, 223, 212);
+}
+
+.container-sign {
+     background-color: whitesmoke;
+}
+
+.footer { 
+    background-color: rgb(237, 136, 47);
+}
